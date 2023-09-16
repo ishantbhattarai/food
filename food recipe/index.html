@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="edit.css">
+    <title>Cooking Website</title>
+</head>
+<body>
+   
+
+    <!-- Header -->
+    <header>
+        <h1>Cook with Ishant</h1>
+        <p>Ghar ko Swyad Ghar mai aauchha</p>
+    </header>
+
+    <!-- Recipe Cards -->
+    <section class="recipe-cards">
+        <div class="recipe-card">
+            <img src="360_F_43922171_p3oWlWNJRTEZvbDctaOKB684iv3qEfbu.jpg" alt="Pasta">
+            <h2>Pasta Carbonara</h2>
+            <p>A classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.</p>
+            
+            <a href="pasta.html">Go to Recipe</a>
+        </div>
+        <div class="recipe-card">
+            <img src="istockphoto-1177625557-612x612.jpg" alt="Pizza">
+            <h2>Homemade Pizza</h2>
+            <p>Learn how to make your own delicious pizza with your favorite toppings.</p>
+            <a href="pizza.html">Go to Recipe</a>
+        </div>
+        <div class="recipe-card">
+            <img src="istockphoto-636792302-612x612.jpg" alt="Salad">
+            <h2>Greek Salad</h2>
+            <p>Enjoy a fresh and healthy Greek salad with feta cheese, olives, and cucumbers.</p>
+            <a href="salad.html">View Recipe</a>
+        </div>
+    </section>
+    <header>
+        <h1>Add/Edit Recipe</h1>
+    </header>
+    <main>
+        <form id="recipe-form">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" required>
+            
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" rows="4" required></textarea>
+            
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" rows="8" required></textarea>
+            
+            <button type="submit">Save Recipe</button>
+        </form>
+    </main>
+    <script src="edit.js"></script>
+</body>
+</html>
